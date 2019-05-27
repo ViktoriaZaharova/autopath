@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>The Autoparts Shop - интернет магазин запасных частей для вашего авто</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Rubik:400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div id="mobile-menu">
+    <span class="modal_close"><img src="img/close.png" alt=""></span>
+
+    <ul>
+        <li><a href="#">Запчасти для ТО</a></li>
+        <li><a href="#">Тормозная система</a></li>
+        <li><a href="#">Двигатель и система выпуска</a></li>
+        <li><a href="#">Подвеска и рулевое управление</a></li>
+        <li><a href="#">Трансмиссия</a></li>
+        <li><a href="#">Электрооборудование</a></li>
+        <li><a href="#">Кузов</a></li>
+        <li><a href="#">Масла и автохимия</a></li>
+        <li><a href="#">Каталог запчастей</a></li>
+        <li><a href="#">Страхование</a></li>
+    </ul>
+</div>
+
+<div class="header_fixed">
+    <div class="container">
+        <div class="menu_fix links-btn"><img src="img/burger.png" class="img-responsive" alt=""></div>
+
+
+        <div class="block_phone">
+            <div class="btn-phone">
+                <a href="tel:+380994738877">(099) 473-88-77</a>
+                <span class="icon-arrow fa fa-angle-down" aria-hidden="true"></span>
+            </div>
+
+            <div class="block_phone-dropdown">
+                <ul class="list_phone">
+                    <li><a href="tel:+380934738877">(093) 473-88-77</a></li>
+                    <li><a href="tel:+380604738877">(060) 473-88-77</a></li>
+                </ul>
+
+                <form method="post" class="block_phone-callback">
+                    <div class="input-group-phone">
+                        <span>+38</span>
+                        <input type="tel" name="phone" placeholder="(000) 000-00-00" required>
+                    </div>
+                    <button type="submit" class="links-btn">Перезвоните мне</button>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="block_search">
+            <form method="post" class="search">
+                <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку" required>
+                <button type="submit" class="btn"></button>
+            </form>
+
+            <div class="tooltip-info__wrapper">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="auto-search links-btn">
+            <p>Поиск по авто</p>
+            <div class="tooltip-info__wrapper">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+        <div class="vin-search links-btn"><p>Поиск по VIN</p></div>
+
+        <a href="#modal_authorization" class="room open_modal links-btn">
+                        <span class="icon icon-entrance">
+                            <img src="img/entrance.png" class="img-responsive" alt="">
+                        </span>
+        </a>
+
+        <a href="#" class="block_card links-btn">
+                        <span class="icon icon-basket">
+                            <img src="img/basket.png" class="img-responsive" alt="">
+                        </span>
+            <span class="quantity">0</span>
+        </a>
+
+    </div>
+</div>
+
+<header class="header">
+    <div class="container">
+
+        <div class="header_top">
+            <a href="index.html" class="logo"><img src="img/logo.png" class="img-responsive" alt=""></a>
+
+            <div class="header_top-right">
+                <div class="room">
+                <a href="#modal_authorization" class="open_modal">
+                        <span class="icon icon-entrance">
+                            <img src="img/entrance.png" class="img-responsive" alt="">
+                        </span>
+                    Войти
+                </a></div>
+
+                <div class="block_phone">
+                    <div class="btn-phone">
+                        <a href="tel:+380994738877">(099) 473-88-77</a>
+                        <span class="icon-arrow fa fa-angle-down" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="block_phone-dropdown">
+                        <ul class="list_phone">
+                            <li><a href="tel:+380934738877">(093) 473-88-77</a></li>
+                            <li><a href="tel:+380604738877">(060) 473-88-77</a></li>
+                        </ul>
+
+                        <form method="post" class="block_phone-callback">
+                            <div class="input-group-phone">
+                                <span>+38</span>
+                                <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+                            </div>
+                            <button type="submit" class="links-btn">Перезвоните мне</button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="sale.html">Акции</a></li>
+                        <li><a href="#">Оплата и Доставка</a></li>
+                        <li><a href="#">Гарантия и Возврат</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header_bottom">
+
+            <nav class="catalog_menu">
+                <div class="menu-title"><span>Каталог товаров</span></div>
+
+            </nav>
+            <div class="drop-menu1">
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon1.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="gantry.html" class="product-title">Запчасти для ТО</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Фильтр топливный</a></li>
+                        <li><a href="catalog.html">Фильтр масляный</a></li>
+                        <li><a href="#">Диск тормозной</a></li>
+                        <li><a href="#">Колодки тормозные</a></li>
+                        <li><a href="#">Свечи зажигания</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon2.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Тормозная система</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Суппорт тормозной</a></li>
+                        <li><a href="#">Диск тормозной</a></li>
+                        <li><a href="#">Колодки тормозные</a></li>
+                        <li><a href="#">Шланги тормозные</a></li>
+                        <li><a href="#">Тормозные цилиндры</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon3.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Двигатель и система выпуска</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Механизм газораспределения</a>
+                        <li><a href="#">Головка блока цилиндра</a>
+                        <li><a href="#">Кривошипно-шатунный механизм</a>
+                        <li><a href="#">Ременной привод</a>
+                        <li><a href="#">Система впуска/выпуска</a>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon4.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Подвеска и рулевое управление</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Рулевое управление</a></li>
+                        <li><a href="#">Амортизаторы (стойки)</a></li>
+                        <li><a href="#">Тормозная система</a></li>
+                        <li><a href="#">Рычаг подвески</a></li>
+                        <li><a href="#">Ступица</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon5.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Трансмиссия</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Система сцепления</a></li>
+                        <li><a href="#">Привод колеса</a></li>
+                        <li><a href="#">Карданный вал</a></li>
+                        <li><a href="#">КПП/АКПП</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon6.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Электрооборудование</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Датчики</a></li>
+                        <li><a href="#">Стартеры</a></li>
+                        <li><a href="#">Генераторы</a></li>
+                        <li><a href="#">Аккумуляторы</a></li>
+                        <li><a href="#">Предохранители</a></li>
+                        <li><a href="#">Предохранители</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon7.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Кузов</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Оптика</a></li>
+                        <li><a href="#">Двери</a></li>
+                        <li><a href="#">Бампер</a></li>
+                        <li><a href="#">Капот</a></li>
+                        <li><a href="#">Зеркала</a></li>
+                        <li><a href="#">Зеркала</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon8.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Масла и автохимия</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Масла моторные</a></li>
+                        <li><a href="#">Масла трансмиссионные</a></li>
+                        <li><a href="#">Жидкости для омывателя стекла</a></li>
+                        <li><a href="#">Жидкости тормозные</a></li>
+                        <li><a href="#">Жидкости охлаждающие</a></li>
+                        <li><a href="#">Жидкости охлаждающие</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon9.png" class="img-responsive" alt="">
+                        <span class="box-pro">pro</span>
+                    </div>
+                    <a href="#" class="product-title">Каталог запчастей</a>
+                    <ul class="product_menu">
+                        <li><a href="#">оригинальные каталоги</a></li>
+                        <li><a href="#">не оригинальные каталоги</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon10.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Страхование</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Страхование ОСАГО</a></li>
+                        <li><a href="#">Страхование КАСКО</a></li>
+                        <li><a href="#">Страхование для Европы (Green карта) </a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div class="btn-mobile icon-search">
+                <img src="img/search.png" alt="">
+            </div>
+
+            <div class="block_search">
+                <form method="post" class="search">
+                    <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку"
+                           required>
+                    <button type="submit" class="btn"></button>
+                </form>
+
+                <div class="tooltip-info__wrapper">
+                    <div class="icon-question icon-tooltip">?</div>
+                    <div class="tooltip-info">
+                        <p>Всплывающая подсказка</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="auto-search links-btn">
+                <p>Поиск по авто</p>
+                <div class="tooltip-info__wrapper">
+                    <div class="icon-question icon-tooltip">?</div>
+                    <div class="tooltip-info">
+                        <p>Всплывающая подсказка</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vin-search links-btn"><p>Поиск по VIN</p></div>
+
+            <a href="#modal_authorization" class="room open_modal btn-mobile">
+                        <span class="icon icon-entrance">
+                            <img src="img/entrance.png" class="img-responsive" alt="">
+                        </span>
+            </a>
+
+            <a href="#" class="block_card links-btn">
+                        <span class="icon icon-basket">
+                            <img src="img/basket.png" class="img-responsive" alt="">
+                        </span>
+                <span class="quantity">0</span>
+            </a>
+
+
+        </div>
+    </div>
+</header>
+
+<div id="search-mobile">
+    <div class="container">
+        <form method="post" class="search">
+            <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку"
+                   required>
+            <button type="submit" class="btn"></button>
+        </form>
+    </div>
+</div>
+
+<div class="search-vin_wrapper">
+    <div class="container">
+        <div class="block_search">
+            <form method="post" class="search">
+                <input type="text" name="search" placeholder="Введите ваш VIN номер автомобиля"
+                       required>
+                <button type="submit" class="btn"></button>
+            </form>
+
+            <div class="tooltip-info__wrapper">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="auto_select">
+    <div class="container">
+
+        <div class="block_top">
+            <a href="#" class="links">История просмотров</a>
+            <div class="tooltip-info__wrapper btn-mobile">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="auto_select-wrap">
+
+            <div class="item">
+                <div class="btn-select">Выберите год</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="btn-select">Выберите марку</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите модель</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите двигатель</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите кузов</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите модификацию</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+    <section class="short_description">
+        <div class="container">
+            <div class="wrapper">
+                <div class="block_left">
+
+                    <h4>Ваш автомобиль:</h4>
+                    <div class="auto_select-wrap">
+                        <div class="item">
+                            <div class="btn-select">2009 Ford Kuga</div>
+                            <ul class="drop-menu">
+                                <li><a href="#">2009 Ford Kuga</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span>2.0 Дизель, внедорожник</span>
+                        <span>Код двигателя: UFDA</span>
+                    </div>
+
+                </div>
+
+                <a href="#" class="links">Добавить в гараж</a>
+
+
+                <div class="image">
+                    <img src="img/avto1.png" class="img-responsive" alt="">
+                    <img src="img/avto2.png" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container">
+
+            <ul class="breadcrumb">
+                <li><a href="#">2009 Ford Kuga</a></li>
+                <li><a href="#">Подвеска и Рулевое</a></li>
+                <li><a href="#">Подшипник и ступица</a></li>
+                <li><a href="product.html">Fersa 0626 2RS/C3 Подшипник ступицы колеса</a></li>
+            </ul>
+
+            <div class="s-title">
+                <h1>Fersa 0626 2RS/C3 </h1>
+                <span>Подшипник ступицы колеса</span>
+            </div>
+
+            <div class="appointment">
+                <span class="icon"><img src="img/check-green.png" class="img-responsive" alt=""></span>
+                <p>Данная запчасть подходит для выбранного
+                    автомобиля <strong>Ford Kuga 2009</strong></p>
+            </div>
+
+            <div class="appointment appointment-error">
+                <span class="icon"><img src="img/error.png" class="img-responsive" alt=""></span>
+                <p>Данная запчасть не подходит для выбранного автомобиля <strong>Ford Kuga 2009</strong></p>
+                <a href="#" class="links">Подобрать к моему автомобилю</a>
+            </div>
+            <div class="product_content">
+                <div class="product_content-left">
+
+                    <div class="product_content-left-image">
+
+                        <div class="image_max">
+                            <img src="img/product-max.png" class="img-responsive" alt="">
+                            <img src="img/product-max.png" class="img-responsive" alt="">
+                            <img src="img/product-max.png" class="img-responsive" alt="">
+                        </div>
+                        <div class="image_min">
+                            <div class="item active">
+                                <img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="item"></div>
+                        </div>
+                    </div>
+                    <div class="product_content-text">
+
+                        <div class="block_purchase">
+                            <div class="line">
+                                <div class="availability-block">
+                                    <div class="availability-block__text text">Есть в наличии</div>
+                                    <div class="availability-block__total">99 шт +</div>
+                                </div>
+
+                                <div class="price">
+                                    <div class="new-price">330 грн</div>
+                                </div>
+                            </div>
+
+                            <div class="line">
+                                <div class="b_quantity">
+                                    <a href="#" class="minus"></a>
+                                    <input type="text" name="inp-quantity" value="1">
+                                    <a href="#" class="plus"></a>
+                                </div>
+                                <a href="#" class="btn-accent"><span>Купить</span></a>
+
+                            </div>
+
+                        </div>
+
+                        <form method="post" class="block_phone-callback">
+                            <div class="input-group-phone">
+                                <span>+38</span>
+                                <input type="text" name="phone" placeholder="(000) 000-00-00" required="">
+                            </div>
+                            <button type="submit" class="btn">Купить в 1 клик</button>
+                        </form>
+
+                        <div class="line line-buttons">
+                            <div class="links-wrapper">
+                                <span class="icon"><img src="img/services-icon.png" class="img-responsive"
+                                                        alt=""></span>
+                                <a href="#analogies" class="links go_to">Аналоги</a>
+                            </div>
+
+                            <div class="links-wrapper">
+                                <span class="icon"><img src="img/auto-icon.png" class="img-responsive" alt=""></span>
+                                <a href="#application" class="links go_to">К автомобилям</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="product_content-right">
+                    <div class="item item-delivery">
+                        <div class="item-title">
+                            <h5>Доставка:</h5>
+                            <div class="tooltip-info__wrapper">
+                                <div class="icon-question icon-tooltip">?</div>
+                                <div class="tooltip-info">
+                                    <p>Всплывающая подсказка</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-body">
+                            <ul class="list-accent-dots">
+                                <li>Курьером по Киеву: cегодня</li>
+                                <li>Самовывоз в Киеве: бесплатно, сегодня.</li>
+                                <li>В отделение "Нова Пошта" 39 грн., 1-2 дня.</li>
+                                <li>Адресная доставка по Украине: 79 грн.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item item-payment">
+                        <div class="item-title">
+                            <h5>Оплата:</h5>
+                            <div class="tooltip-info__wrapper">
+                                <div class="icon-question icon-tooltip">?</div>
+                                <div class="tooltip-info">
+                                    <p>Всплывающая подсказка</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-body">
+                            <ul class="list-accent-dots">
+                                <li>Полная предоплата.</li>
+                                <li>Оплата Visa/MasterCard</li>
+                                <li>Наложенный платеж</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item item-warranty">
+                        <div class="item-title">
+                            <h5>Гарантия:</h5>
+                            <div class="tooltip-info__wrapper">
+                                <div class="icon-question icon-tooltip">?</div>
+                                <div class="tooltip-info">
+                                    <p>Всплывающая подсказка</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item-body">
+                            <p>Возврат и обмен в течение 30 дней.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="product_descriptions">
+                <div class="product_descriptions-left">
+                    <div class="characteristics">
+                        <div class="subtitle">
+                            <h2>хАРАКТЕРИСТИКИ</h2>
+                        </div>
+
+                        <div class="product_characteristics">
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Расположение</p>
+                                    <div class="tooltip-info__wrapper">
+                                        <div class="icon-question icon-tooltip">?</div>
+                                        <div class="tooltip-info">
+                                            <p>Всплывающая подсказка</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specification-text">
+                                    <p>задний</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Сторона</p>
+                                    <div class="tooltip-info__wrapper">
+                                        <div class="icon-question icon-tooltip">?</div>
+                                        <div class="tooltip-info">
+                                            <p>Всплывающая подсказка</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specification-text">
+                                    <p>двусторонний</p>
+                                </div>
+                            </div>
+
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Вид наполнителя</p>
+                                </div>
+                                <div class="specification-text">
+                                    <p>газомасляный</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Тип</p>
+                                </div>
+                                <div class="specification-text">
+                                    <p>амортизатор</p>
+                                    <span>Амортизатор имеет сверху и снизу
+							жесткие крепления. Стойка имеет
+							снизу жесткое крепление, а сверху
+							поворотное</span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Конструкция</p>
+                                </div>
+                                <div class="specification-text">
+                                    <p>двухтрубный</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Количество</p>
+                                </div>
+                                <div class="specification-text">
+                                    <p>2 шт.</p>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="specification">
+                                    <p>Гарантия</p>
+                                </div>
+                                <div class="specification-text">
+                                    <p>20 000 км или 6 месяцев </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="product_descriptions-right">
+                    <div class="subtitle">
+                        <h2>оПИСАНИЕ</h2>
+                    </div>
+
+                    <p>Подшипник ступицы колеса Fersa 0626 2RS/C3 – газо-масляный двухтрубный амортизатор
+                        премиум-класса, представлен в серии Reflex. Обладает «противозаносным» эффектом, благодаря
+                        оригинальной конструкции системы клапанов «Twin Disc». Уникальность этой технологии заключается
+                        в том, что амортизатор срабатывает при минимальных колебаниях подвески, которые у традиционного
+                        амортизатора остаются в нерабочей зоне, обеспечивая тем самым максимальный контакт колеса с
+                        дорогой при любых режимах движения автомобиля.</p>
+
+                    <h5>Преимущества:</h5>
+                    <ul class="list-accent-dots">
+                        <li>Технология Twin Disc c двойным пакетом дисков.</li>
+                        <li>Тефлоновое покрытие поршня.</li>
+                        <li>Стабильность курса и движения автомобиля.</li>
+                        <li>Двухтрубная конструкция обеспечивает мягкий ход автомобиля.</li>
+                        <li>Максимально исключено вспенивание наполнителя.</li>
+                    </ul>
+                    <button class="box-dots">···</button>
+                </div>
+
+            </div>
+
+            <div class="brand">
+                <div class="subtitle">
+                    <h2>О бренде</h2>
+                </div>
+
+                <div class="line">
+                    <div class="image">
+                        <img src="img/brand.png" class="img-responsive" alt="">
+                    </div>
+                    <p>Fersa Bearings – испанский компания, которая специализируется на производстве высококачественных
+                        подшипников, применяемых в легковых и коммерческих автомобилях, а также в тяжелой и промышленной
+                        технике.</p>
+
+                </div>
+
+                <h5>Сегодня бренд Fersa предлагает следующий ассортимент продукции:</h5>
+
+                <ul class="list-accent-dots">
+                    <li>Конические роликовые подшипники для колесных ступиц, коробок передач и
+                        дифференциалов,
+                    </li>
+                    <li>Цилиндрические роликовые подшипники,</li>
+                    <li>Шариковые подшипники: радиальные однорядные, угловые двухрядные, упорные (для
+                        сцеплений)
+                    </li>
+                    <li>Игольчатые роликовые подшипники,</li>
+                    <li>Ремкомплекты F-Box Kit для коммерческого транспорта</li>
+                    <li>Комплекты втулок для коммерческих автомобилей,</li>
+                    <li>Литиевые смазки.</li>
+                </ul>
+
+                <p class="indent">Качество продукции высоко оценили такие автоконцерны как BMW, CITROEN, FORD, JAGUAR,
+                    LAND
+                    ROVER
+                    и другие, приобретающие у Quinton Hazell ОЕМ продукцию. Уровень качества поддерживается
+                    и в
+                    производстве продукции для вторичного рынка, что сделало бренд известным, узнаваемым и
+                    популярным.</p>
+
+                <p class="indent">Следя за развитием технологий, компания внедрила в производство безасбестовые
+                    фрикционные материалы,
+                    отвечающие самым высоким требованиям к качеству и безопасности. В производстве деталей подвески и
+                    рулевого управления компания внедрила инновационные технологии с использованием нейлона, что сделало
+                    их
+                    более прочными и долговечными.</p>
+
+                <p class="indent">С 2012 года компания стала частью Sator Holding, что позволило расширить сферу влияния
+                    на мировом рынке.
+                    Сегодня продукция Quinton Hazell представлена более чем в 150 странах мира.Благодаря современным
+                    технологиям, компания внедрила 100% контроль качества на каждом этапе производственного процесса. В
+                    частности, подшипники контролируются по таким параметрам:</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="catalog" id="analogies">
+
+        <div class="container">
+            <div class="s-title">
+                <h2 class="subtitle">Аналоги</h2>
+                <p>Запчасти других производителей, которые подойдут вместо запчасти Fersa 0626 2RS/C3 </p>
+            </div>
+
+            <div class="catalog_content">
+
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-photo icon-tooltip"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>На складе > 15 шт</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">5 дней</div>
+                            <div class="tooltip-info">
+                                <p>Доставка со склада</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price">
+                        <div class="old-price">400</div>
+                        <div class="new-price">330 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                </div>
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-photo icon-tooltip"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>На складе > 15 шт</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">5 дней</div>
+                            <div class="tooltip-info">
+                                <p>Доставка со склада</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price">
+                        <div class="old-price">400</div>
+                        <div class="new-price">500 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                </div>
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-tooltip icon-no-photo"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>На складе > 15 шт</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">Сегодня</div>
+                            <div class="tooltip-info">
+                                <p>Доставка со склада</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price">
+                        <div class="new-price">1 804 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                </div>
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-photo icon-tooltip"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-green"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>На складе > 15 шт</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">Сегодня</div>
+                            <div class="tooltip-info">
+                                <p>Доставка со склада</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price">
+                        <div class="new-price">330 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                </div>
+
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-photo icon-tooltip"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>Товар отсутствует</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">-</div>
+                            <div class="tooltip-info">
+                                <p>Товар отсутствует</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price price-off">
+                        <div class="new-price">330 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn basket-off"><span class="icon icon-basket"></span></a>
+
+                </div>
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-photo icon-tooltip"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>Товар отсутствует</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">-</div>
+                            <div class="tooltip-info">
+                                <p>Товар отсутствует</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price price-off">
+                        <div class="new-price">330 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn basket-off"><span class="icon icon-basket"></span></a>
+
+                </div>
+                <div class="catalog_item catalog_item-list">
+                    <div class="product-name">
+                        <a href="#">Opel</a>
+                        <p>93179397</p>
+                    </div>
+
+                    <div class="item_categories">
+                        <p>Подшипник ступицы колеса</p>
+                    </div>
+
+                    <div class="cart_item-group">
+                        <div class="tooltip-image__wrapper">
+                            <div class="icon-photo icon-tooltip"></div>
+
+                            <div class="tooltip-photo"><img src="img/product-max.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+
+                        <div class="tooltip-info__wrapper">
+                            <div class="icon-question icon-tooltip">i</div>
+                            <div class="tooltip-info">
+                                <p>Всплывающая подсказка</p>
+                            </div>
+                        </div>
+
+
+                        <div class="availability-block">
+                            <div class="availability-block__dots">
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                                <span class="dots-grey"></span>
+                            </div>
+                            <div class="tooltip-info">
+                                <p>Товар отсутствует</p>
+                            </div>
+                        </div>
+                        <div class="delivery-block">
+                            <div class="delivery-block__date">-</div>
+                            <div class="tooltip-info">
+                                <p>Товар отсутствует</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="price price-off">
+                        <div class="new-price">330 грн</div>
+                    </div>
+
+                    <a href="basket.html" class="block_card btn basket-off"><span class="icon icon-basket"></span></a>
+
+                </div>
+
+            </div>
+
+            <a href="#" class="links-all">Показать все</a>
+
+        </div>
+
+    </section>
+
+    <section class="application" id="application">
+        <div class="container">
+
+            <div class="application-wrapper">
+                <div class="application_left">
+                    <div class="subtitle">
+                        <h2>Применимость к автомобилям</h2>
+                    </div>
+                    <p class="text">Автомобили, для которых подходит запчасть Fersa 0626 2RS/C3 </p>
+
+                    <ul class="application_list">
+                        <li>
+                            <p class="auto">Kuga</p>
+                            <p>внедорожник</p>
+                            <p class="date">2008 г. - Наше время</p>
+                        </li>
+                        <li>
+                            <p class="auto">Honda</p>
+                            <p>внедорожник</p>
+                            <p class="date">2008 г. - Наше время</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="application_right">
+                    <div class="subtitle">
+                        <h2>Оригинальные номера</h2>
+                    </div>
+                    <p class="text">Номера оригинальных запчастей (от производителя автомобиля), для которых заменой
+                        является артикул Monroe Fersa 0626 2RS/C3 </p>
+
+                    <ul class="application_list list-accent-dots">
+                        <li>1508072</li>
+                        <li>1508073</li>
+                        <li>1517638</li>
+                        <li>1517639</li>
+                        <li>1568054</li>
+                        <li>1568056</li>
+                        <li>1692350</li>
+                        <li>1692351</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s-delivery">
+        <div class="container">
+            <div class="item item-delivery">
+                <div class="item-title">
+                    <h5>Доставка:</h5>
+                    <div class="tooltip-info__wrapper">
+                        <div class="icon-question icon-tooltip">?</div>
+                        <div class="tooltip-info">
+                            <p>Всплывающая подсказка</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-body">
+                    <ul class="list-accent-dots">
+                        <li>Курьером по Киеву: cегодня</li>
+                        <li>Самовывоз в Киеве: бесплатно, сегодня.</li>
+                        <li>В отделение "Нова Пошта" 39 грн., 1-2 дня.</li>
+                        <li>Адресная доставка по Украине: 79 грн.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item item-payment">
+                <div class="item-title">
+                    <h5>Оплата:</h5>
+                    <div class="tooltip-info__wrapper">
+                        <div class="icon-question icon-tooltip">?</div>
+                        <div class="tooltip-info">
+                            <p>Всплывающая подсказка</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-body">
+                    <ul class="list-accent-dots">
+                        <li>Полная предоплата.</li>
+                        <li>Оплата Visa/MasterCard</li>
+                        <li>Наложенный платеж</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="item item-warranty">
+                <div class="item-title">
+                    <h5>Гарантия:</h5>
+                    <div class="tooltip-info__wrapper">
+                        <div class="icon-question icon-tooltip">?</div>
+                        <div class="tooltip-info">
+                            <p>Всплывающая подсказка</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-body">
+                    <p>Возврат и обмен в течение 30 дней.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</div>
+
+<footer>
+    <div class="footer_top">
+        <div class="container">
+
+            <ul class="footer-menu footer-item">
+                <li><a href="#">О компании </a></li>
+                <li><a href="#">Акции </a></li>
+                <li><a href="#">Оплата и Доставка </a></li>
+                <li><a href="#">Гарантия и возврат</a></li>
+                <li><a href="#">Контакты </a></li>
+            </ul>
+
+            <div class="footer-item">
+                <ul class="footer-phone">
+                    <li><a href="tel:+380966080022">(096) 608 00 22</a></li>
+                    <li><a href="tel:+380996080022">(099) 608 00 22</a></li>
+                    <li><a href="tel:+380936080022">(093) 608 00 22</a></li>
+                </ul>
+
+                <ul class="footer-time">
+                    <li>Пн.-Пт · 9:00 - 19:00</li>
+                    <li>Сб · 9:00 - 17:00</li>
+                </ul>
+            </div>
+
+            <div class="footer-address footer-item">
+                <p>Главный офис</p>
+                <span>Украина, Волынская область,
+                        Львов, ул. Третья объездная, 25</span>
+                <a href="#">Показать на карте</a>
+
+                <a href="#" class="representative">Представительства в регионах</a>
+            </div>
+
+            <ul class="footer-item footer-document">
+                <li><a href="#">Поставщикам</a></li>
+                <li><a href="#" target="_blank">Пользовательское соглашение</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        <div class="container">
+
+            <div class="copyright footer-item">2018 Auto Parts Shop</div>
+
+            <ul class="social footer-item">
+                <li><a href="#"><img src="img/fb.png" class="img-responsive" alt=""></a></li>
+                <li><a href="#"><img src="img/inst.png" class="img-responsive" alt=""></a></li>
+                <li><a href="#"><img src="img/g+.png" class="img-responsive" alt=""></a></li>
+            </ul>
+
+            <div class="footer-item f-money">
+                <p>Принимаем к оплате</p>
+                <img src="img/visa.png" class="img-responsive" alt="">
+            </div>
+
+            <div class="footer-item logo-design">
+                <a href="#">
+                    <img src="img/icons_rus.png" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="img/www.stylepix.net.png" alt="">
+                </a>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+</footer>
+
+<div class="modal_div" id="modal_authorization">
+    <div class="modal_div-wrapper">
+        <span class="modal_close"><img src="img/close.png" alt=""></span> <!-- Кнoпкa зaкрыть -->
+
+        <form method="POST" class="form">
+            <div class="form_top">
+                <h3>Авторизация</h3>
+
+                <div class="input-group phone-wrap">
+                    <label>Логин (Моб. телефон):</label>
+                    <div class="input-group-phone">
+                        <span>+38</span>
+                        <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+                    </div>
+                </div>
+
+                <div class="input-group inp-pass">
+                    <label>Ваш пароль <span class="links-search">Забыли пароль?</span></label>
+                    <input type="password" name="pass" required>
+                </div>
+
+                <div class="input-group inp-btn">
+                    <label class="checkbox">
+                        <input class="checkbox-inp" type="checkbox" name="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">Запомнить меня</span>
+                    </label>
+                    <button type="submit" class="btn-accent">Войти</button>
+                </div>
+            </div>
+
+            <div class="form_bottom">
+                <a href="registration.html" class="btn">Регистрация</a>
+                <p>Вы можете зарегестрироватсья на c помощью учетных записей социальных сетей</p>
+
+                <div class="button-group">
+                    <a href="#" class="fb">
+                        <span class="image"><img src="img/fb.png" class="img-responsive" alt=""></span>
+                        <span class="text">Facebook</span>
+                    </a>
+                    <a href="#" class="google">
+                        <span class="image"><img src="img/g+.png" class="img-responsive" alt=""></span>
+                        <span class="text">google</span>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="overlay"></div><!-- Пoдлoжкa -->
+
+<script src="js/scripts.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+
+</body>
+</html>

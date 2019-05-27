@@ -1,0 +1,1761 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  .container
+    max-width: 100%
+    width: 100%
+
+  .search
+    width: 448px
+
+  .header_fixed
+    .container
+      .block_search
+        align-items: center
+        .tooltip-info__wrapper
+          margin: 0 0 0 9px
+        .search
+          width: 300px
+          input
+            padding: 0 30px 0 9px
+            border-radius: 5px
+          .btn
+            right: 9px
+
+  .header
+    .container
+      padding: 25px 15px 0
+    &_top
+      min-height: auto
+
+  .header_top
+    .header_top-right
+      width: 700px
+
+  .header_bottom
+    .auto-search, .vin-search
+      padding: 15px 9px
+      width: 120px
+    .block_search
+      margin: 0
+
+  .auto_select, .search-vin_wrapper, #search-mobile
+    top: 211px
+
+  .auto_select
+    .container
+      padding: 26px 27px 18px 18px
+      .auto_select-wrap
+        .item
+          margin-bottom: 10px
+
+  .menu
+    width: auto
+    ul
+      li
+        a
+          margin-right: 10px
+
+  .drop-menu1
+    width: 97%
+    top: 210px
+
+
+  .main_slider .slider_item .slider_text
+    width: 99%
+
+  .cart_item
+    margin: 0 0 20px 0
+
+  .spare_parts .spare_parts-categories .item
+    width: 350px
+    padding: 20px 30px 20px
+
+
+  .catalog_menu
+    .menu-title
+      padding: 15px 50px 15px 20px
+
+
+  .header_fixed
+    .auto-search, .vin-search
+      border:
+        radius: 50%
+      padding: 0
+      position: relative
+      width: 54px
+      height: 54px
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        right: 0
+        margin: 0 auto
+        top: 0
+        text-align: center
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+    .auto-search
+      margin: 0
+      &:before
+        background: url("../img/auto-blue.png") no-repeat center
+          size: 35px
+    .vin-search
+      &:before
+        content: 'vin'
+        font:
+          weight: 700
+          size: 14px
+        text-transform: uppercase
+        color: $accent1
+    .container
+      padding: 13px 15px
+      .links-btn
+        margin: 0
+        p
+          display: none
+
+
+  .auto_select.fixed, .search-vin_wrapper.fixed
+    top: 80px
+
+
+  .cabinet_wrapper
+    .catalog_content
+      .item
+        .b_right
+          padding: 63px 40px 74px
+          width: 350px
+          .text
+            p
+              font-size: 22px
+            span
+              font-size: 24px
+          .image
+            width: 90px
+            height: 90px
+
+
+
+  .cabinet .line_sort .btn
+    margin: 0
+
+  .product
+    .product_descriptions-left, .product_descriptions-right
+      max-width: 45%
+
+  .auto_select-wrap .item:nth-child(1) .btn-select
+    min-width: 184px
+
+  .short_description .wrapper .links
+    margin: 0 20px 0 auto
+
+@media screen and (max-width: 1100px)
+  .cabinet_garage .short_description .block_left .image
+    display: flex
+    margin: 0 20px 0 0
+
+  .short_description
+    .image
+      display: none
+    .wrapper
+      .links
+        margin: 0 0 0 auto
+
+  .spare_parts .spare_parts-categories .container
+    justify-content: space-around
+
+  .registration_wrapper .box-wrapper
+    max-width: 450px
+
+  .page-article__content-item
+    margin: 0 0 40px
+    .image
+      max-width: 400px
+
+  .list-table
+    margin: 0 0 40px
+
+  .ordering
+    .container
+      .ordering_left
+        .stages
+          .form, .line
+            padding: 0
+
+  .cabinet_content-left
+    margin: 0 0 20px 0
+
+  .sale-page
+    .tabs__content .tabs__content-wrap
+      justify-content: space-around
+
+  .tabs__content-block .tabs__content-box
+    justify-content: space-around
+
+  .catalog_item-list
+    .block_card
+      margin: 0 0 0 20px
+    .product-name
+      width: 110px
+    .cart_item-group
+      min-width: 200px
+      .tooltip-info__wrapper
+        margin: 0 15px
+
+  .product
+    .product_content-left
+      width: 100%
+      justify-content: center
+    .product_content-right
+      display: none
+
+@media screen and (max-width: 1060px)
+
+
+  .s-delivery
+    display: flex
+    .container
+      border-top: 1px solid #ececec
+      padding: 60px 15px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .application
+    .container
+      .application_left
+        .application_list
+          li
+            padding: 0 10px
+            justify-content: space-between
+            .auto
+              min-width: 60px
+            .date
+              margin: 0
+
+  .product_item
+    .product-title
+      min-height: 37px
+
+  .main_slider
+    .slider_item
+      min-height: 339px
+      height: 339px
+      .slider_text
+        h3
+          font-size: 40px
+          line-height: 40px
+        p
+          font-size: 25px
+        .slider-date
+          font-size: 30px
+
+  .auto-search.on
+    .tooltip-info__wrapper
+      display: none
+
+  .auto_select
+    .btn-mobile
+      display: block
+      top: 0
+    .block_top
+      display: flex
+      flex-direction: row
+
+  .auto_select, .add-auto-select
+    .container
+      padding: 26px 10px 13px
+      .auto_select-top
+        flex-direction: column
+        .block_right
+          margin: 18px 0 0 0
+          padding: 0
+      .auto_select-wrap
+        justify-content: space-around
+        margin-top: 19px
+        .item
+          margin: 0 0 10px 0
+
+  .s_sale
+    .cart-wrapper
+      justify-content: space-around
+
+  .s-auto
+    .cart-wrapper
+      .auto_item
+        margin: 0 auto 20px
+
+  footer
+    .footer_top
+      .container
+        padding: 40px 15px 35px
+
+
+  .header_fixed
+    .container
+      .list_menu-fix
+        li
+          .btn-help, .block_card, .room
+            padding: 0 10px
+
+  .auto_select, .search-vin_wrapper, #search-mobile
+    top: 177px
+    border: none
+           
+  .header
+    .container
+      background: #fff
+      padding: 0
+
+  .catalog_menu
+    .menu-title
+      border: none
+        radius: 0
+        right: 1px solid #e2e2e2
+      padding: 0
+      width: 53px
+      height: 57px
+      &:before
+        top: 20px
+        right: 0
+        left: 0
+        display: block
+        margin: 0 auto
+      span
+        display: none
+
+  .search
+    input
+      border-radius: 5px
+      box-shadow: none
+      background-color: #ffffff
+      border: 1px solid #e4e4e4
+      padding: 0 23px 0 9px
+    .btn
+      right: 9px
+
+  .block_search
+    align-items: center
+    padding: 0 12px 0 7px
+    .tooltip-info__wrapper
+      margin: 0 0 0 9px
+    .tooltip-info
+      left: auto
+
+  .header_bottom
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, 0.14)
+    background: #fff
+    align-items: center
+    .links-btn
+      margin: 0
+    .btn-mobile.room, .block_card
+      display: flex
+      border: none
+        radius: 0
+        left: 1px solid #e2e2e2
+      padding: 0
+      width: auto
+      flex: 1
+      height: 57px
+      align-items: center
+      justify-content: center
+      .icon
+        margin: 0
+    .block_card
+      .quantity
+        right: 5px
+    .auto-search, .vin-search
+      border: none
+        radius: 0
+        left: 1px solid #e2e2e2
+      padding: 0
+      position: relative
+      width: auto
+      height: 57px
+      flex: 1
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        right: 0
+        margin: 0 auto
+        top: 0
+        text-align: center
+        height: 100%
+        display: flex
+        align-items: center
+        justify-content: center
+        color: $accent1
+      p
+        display: none
+        color: $accent1
+    .auto-search
+      &:before
+        background: url("../img/auto-blue.png") no-repeat center
+          size: 35px
+    .vin-search
+      &:before
+        content: 'vin'
+        font:
+          weight: 700
+          size: 14px
+        text-transform: uppercase
+
+  .header_top
+    padding: 26px 15px
+    margin: 0
+    box-sizing: border-box
+    .header_top-right
+      width: 434px
+      .room
+        display: none
+    .block_phone
+      margin: 0 0 0 -30px
+
+  .drop-menu1
+    top: 177px
+    width: 100%
+
+  .ordering_wrapper
+    width: 100%
+
+  .catalog_content
+    width: 100%
+    margin: 19px 0 0 0
+
+
+  #cabinet_menu-mobile
+    display: flex
+    position: relative
+  #cabinet_menu-mobile.in
+    .icon-arrow
+      &:before
+        transform: rotate(180deg)
+
+  .cabinet_menu
+    display: none
+    top: 20px
+    position: absolute
+    z-index: 2
+    padding: 20px
+    box-sizing: border-box
+    border: 1px solid #f4f4f4
+      radius: 10px
+    background: #fff
+    left: -20px
+    width: 200px
+    ul
+
+      li
+        a
+          color: $text
+          border: none
+        .active
+          color: $accent1
+          border: none
+          &:before
+            display: none
+        &:last-child
+          a
+            border-bottom: none
+
+  .cabinet
+    .s-title
+      margin-bottom: 20px
+    .sidebar
+      position: relative
+      width: auto
+      margin: -45px 0 0 auto
+    .line_sort
+      .btn
+        margin: 0 0 0 20px
+
+  .catalog
+    .sidebar
+      display: none
+    .sort_wrapper
+      flex-wrap: wrap
+    .line_sort
+      margin: 0
+
+  .filter_mnu
+    display: flex
+    margin: 0 20px 0 auto
+
+
+@media screen and (max-width: 930px)
+  .cabinet_garage .short_description .block_left .text
+    display: flex
+
+  .short_description .text
+    display: none
+
+
+
+
+  .product
+    .product_content-left-image
+      .image_max
+        width: 351px
+        height: 351px
+    .product_content
+      .product_content-text
+        width: 350px
+
+
+
+  .cabinet_wrapper
+    .wrap
+      flex-direction: column
+
+
+
+  .s-title
+    font-size: 24px
+
+  h1
+    font-size: 24px
+    line-height: 30px
+
+  .sidebar
+    width: 100%
+    position: relative
+
+
+
+  .short_description
+    .wrapper
+      padding: 20px 9px
+
+
+  .header_fixed
+    .container
+      .block_search
+        display: none
+
+  .contacts
+    .registration_wrapper
+      flex-direction: column
+      align-items: center
+      .box-wrapper
+        max-width: none
+        width: 100%
+        margin: 34px 0 0 0
+
+  .box_description
+    max-width: none
+
+  .page-article__content-item
+    flex-direction: column
+    align-items: center
+    .text
+      width: 100%
+      max-width: none
+    .image
+      margin: 0 0 30px 0
+      order: -1
+
+  .ordering
+    .container
+      .ordering_right
+        position: relative
+        padding-bottom: 80px
+        margin: 10px 0 0 0
+        .ordering_total
+          flex-direction: column
+          align-items: flex-start
+          .btn-disable
+            position: absolute
+            bottom: 0
+            right: 0
+
+@media screen and (max-width: 860px)
+  .cabinet .line_sort .btn
+    margin: 20px 0 0 0
+  footer
+    .footer-document, .logo-design
+      display: none
+    .footer-item
+      width: 33%
+
+  .search_result
+    width: 100%
+    margin-bottom: 20px
+
+  .header_fixed
+    .container
+      .btn-help, .room, .block_card
+        padding: 0 10px
+      .block_phone-top
+        p
+          font-size: 18px
+
+  .header_fixed .container .block_card, .header_fixed .container .btn-help, .header_fixed .container .room
+    padding: 12px
+
+  .product_item
+    margin: 0 0 30px 0
+    .product-title
+      font-size: 14px
+      margin: 10px 0
+
+
+  .registration_wrapper
+    flex-direction: column
+    .block-description
+      order: -1
+      margin: 0 auto 30px
+
+  .basket_wrapper
+    .basket__item-image
+      margin: 0 10px 0 0
+    .basket__item-box
+      margin: 0 0 0 20px
+
+  .ordering
+    .container
+      .ordering_right
+        .ordering_product
+          .item
+            justify-content: flex-start
+            flex-wrap: wrap
+            .item_title
+              width: 70%
+            .block_line
+              margin: 16px 40px 0 0
+
+  #modal_thanks
+    width: 97%
+    .modal_div-wrapper .image
+      margin: 0 20px 0 0
+
+@media only screen and (max-width : 800px)
+  .search
+    input
+      min-width: auto
+
+  footer
+    .container
+      justify-content: space-between
+      flex-wrap: wrap
+
+  .basket
+    .basket__line-button
+      flex-direction: column
+      .block_phone-callback
+        order: 1
+      .btn-accent
+        order: -1
+      .btn-continue
+        margin: 30px auto
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .appointment-error
+    flex-wrap: wrap
+    p
+      width: calc(100% - 40px)
+      margin: 0
+    a
+      display: block
+
+  .list-table li
+    font-size: 12px
+    padding: 10px 5px
+    p
+      text-align: center
+      justify-content: center
+      align-items: center
+
+  .s_product-group .cart-wrapper
+    justify-content: flex-start
+    .product_item
+      width: 33%
+
+  .drop-menu1
+    .product_item
+      width: 50%
+      margin: 0 0 20px 0
+      .image
+        display: none
+
+  .search
+    width: 300px
+    input
+      padding: 0 30px 0 9px
+
+  .s_sale
+    .cart-wrapper
+      margin: 19px 0 0
+      .cart_item
+        width: 229px
+        margin: 0 auto 20px
+
+  .auto_item:nth-child(10) ~ .auto_item
+    display: none
+
+
+
+
+  .VIN_queries
+    .s__cabinet-content
+      .line
+        .comment
+          width: 100%
+
+  .you_searched
+    .line
+      align-items: center
+      &:before
+        display: none
+      .btn-inside-hidden
+        display: block
+      .code_name, .mark
+        width: auto
+
+
+  .s__cabinet-content
+    .line.in
+      &:before
+        transform: rotate(180deg)
+        background: url("../img/arrow-orange.png") no-repeat
+    .line
+      position: relative
+      flex-wrap: wrap
+      &:before
+        content: ''
+        position: absolute
+        left: 4px
+        top: 35px
+        background: url("../img/arrow-bottom.png") no-repeat
+        width: 12px
+        height: 7px
+        transition: .3s ease
+      .diagnostic, .payment, .comment, .number_declaration, .btn-print, .vin_code
+        display: none
+        width: 100%
+        margin: 30px 0 0 0
+      .links-btn
+        display: none
+        margin: 30px auto 0 0
+        padding: 5px 15px
+      .btn-print
+        display: none !important
+      .number
+        width: auto
+        padding-left: 20px
+      .status, .b_date
+        width: auto
+      .number
+        order: -3
+      .status
+        margin: 0
+        min-width: 111px
+        order: -1
+      .b_date
+        margin: 0
+        order: -2
+      .btn-close
+        margin: 30px 0 0 0
+        display: none
+        min-width: 36px
+        align-items: center
+        justify-content: center
+        text-align: center
+
+  .cabinet_profile .cabinet_wrapper .catalog_content
+    .cabinet_content-left, .cabinet_content-right
+      width: 100%
+    .cabinet_content-left
+      margin: 0 0 30px 0
+
+  .menu-mobile , .catalog_menu .drop-menu1 .list-mobile
+    display: flex
+
+
+
+  .auto_select, .add-auto-select
+    .wrapper
+      .auto_select-wrap
+        flex-direction: column
+        align-items: center
+        .item
+          width: 100%
+          &:first-child, &:nth-child(2)
+            .drop-menu
+              min-width: auto
+
+  footer
+    .container
+      justify-content: space-around
+      .footer-item
+        margin-bottom: 20px
+        &:last-child
+          margin-bottom: 0
+
+  .ordering
+    .container
+      .ordering_wrapper
+        flex-direction: column
+        .ordering_left, .ordering_right
+          width: 100%
+          .ordering_product
+            .item
+              justify-content: space-between
+              .item_title
+                width: auto
+              .block_line
+                margin: 0
+          .ordering_total
+            .btn-disable
+              right: auto
+              left: 0
+
+  .product .product_content-left-image .image_max
+    width: 330px
+    height: 330px
+
+  #modal_thanks
+    h2
+      margin: 0 0 38px
+    .modal_div-wrapper
+      p
+        max-width: none
+        text-align: center
+      .number-order
+        margin: 0
+      .text-info
+        order: 2
+      a.btn-accent
+        order: 2
+      .image
+        margin: 20px auto
+        order: 1
+      .thanks-wrapper
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+
+
+@media screen and (max-width: 747px)
+  .application
+    .container
+      .application-wrapper
+        flex-direction: column
+        .application_left, .application_right
+          width: 100%
+        .application_left
+          margin-bottom: 40px
+
+
+  .product
+    .product_content-left
+      flex-direction: column
+      align-items: center
+      .product_content-left-image
+        margin: 0 0 30px 0
+
+  .sale-page
+    .s-title
+      margin: 0 0 30px 0
+      h1
+        width: 100%
+        margin: 0 0 20px 0
+
+  .cabinet
+    .line_sort
+      .select
+        margin: 0 29px 15px 8px
+      p
+        margin: 0 0 15px 0
+      .btn
+        margin: 0 0 0 20px
+
+  .cabinet_garage
+    .short_description
+      position: relative
+      .block_left
+        flex-direction: column
+        align-items: center
+        .image
+          width: 100%
+          margin: 0 0 30px 0
+        .text
+          width: 100%
+      .block_right
+        margin: 20px auto 0
+        width: 200px
+      .btn-close
+        margin: 0
+        position: absolute
+        right: 10px
+        top: 10px
+
+  .short_description
+    .wrapper
+      .block_left
+        .image
+          width: 200px
+      .block_right
+        .btn-group
+          margin: 0 0 0 10px
+
+  .menu ul li a
+    font-size: 10px
+
+  .header_top .header_top-right
+    width: 370px
+
+  .spare_parts .spare_parts-categories .container
+    flex-direction: column
+    align-items: center
+
+@media screen and (max-width: 723px)
+  .ordering
+    .container
+      flex-direction: column
+      .ordering_right
+        width: 100%
+        margin: 40px 0 0 0
+
+
+  .catalog_item-list
+    padding: 15px
+    .block_card
+      margin: 0 15px 0 0
+    .price
+      flex-direction: column
+      align-items: center
+      margin: 0 0 0 auto
+      width: 130px
+      .new-price
+        margin: 0
+    .item_categories
+      margin: 0
+      width: 60%
+    .product-name
+      width: 60%
+    .cart_item-group
+      margin: -40px 0 0 0
+      min-width: 160px
+      .tooltip-image__wrapper, .tooltip-info__wrapper, .availability-block, .delivery-block
+        width: 50%
+        margin: 0
+        display: flex
+        justify-content: center
+    .icon-question
+      width: 20px
+      height: 20px
+      font-size: 13px
+    .tooltip-info
+      left: auto
+
+
+  .basket_wrapper
+    .b_quantity, .basket__item-sum
+      width: 50%
+      order: 2
+      margin: 10px auto 0
+      justify-content: center
+      text-align: center
+
+@media screen and (max-width: 670px)
+  .header_top
+    padding: 20px 15px
+    .header_top-right
+      display: none
+
+  .logo
+    margin: 0 auto
+
+  .auto_select, .search-vin_wrapper, #search-mobile
+    top: 161px
+
+  .btn-mobile.icon-search.in
+    background: #dae0ee
+
+  .drop-menu1
+    top: 163px
+    justify-content: space-between
+
+  .s__cabinet-form
+    flex-wrap: wrap
+    width: 100%
+    .input-group
+      width: 50%
+      margin: 0
+    .links-btn
+      margin: 20px 0 0
+
+  .cabinet
+    .line_sort
+      position: relative
+      .btn
+        position: absolute
+        right: 0
+        bottom: 0
+        margin: 0
+
+  .product
+    .product_descriptions
+      flex-direction: column
+      align-items: center
+      .product_descriptions-left, .product_descriptions-right
+        max-width: none
+      .product_descriptions-left
+        margin: 0 0 50px 0
+
+@media screen and (max-width: 620px)
+  .short_description .btn-close
+    margin: 10px auto 0
+
+  .s_product-group
+    .cart-wrapper
+      justify-content: space-between
+      .product_item
+        width: 50%
+  .header_bottom
+    .block_search
+      display: none
+    .btn-mobile.icon-search
+      display: flex
+      align-items: center
+      justify-content: center
+      width: auto
+      flex: 1
+      height: 57px
+
+
+  .main_slider
+    .slider_item
+      height: 131px
+
+
+  .product
+    .product_descriptions-left
+      .characteristics
+        .product_characteristics-text
+          .line
+            p
+              min-width: 160px
+
+  .short_description
+    .wrapper
+      .block_left
+        .image
+          display: none
+      .block_right
+        .btn-group
+          margin: 0
+
+
+
+  .cabinet_wrapper
+    .catalog_content
+      .item
+        flex-direction: column
+        .b_left, .b_right
+          width: 100%
+        .b_left
+          padding: 23px 12px 34px
+          .subtitle
+            font-size: 18px
+        .b_right
+          align-items: center
+          justify-content: center
+          padding: 28px 12px
+          .image
+            width: 78px
+            height: 78px
+          .text
+            p
+              font-size: 18px
+            span
+              font-size: 30px
+
+  .ordering
+    .container
+      .ordering_right
+        .ordering_product
+          .item
+            flex-wrap: wrap
+            .item_title
+              width: calc(100% - 85px)
+            .b_date-delivery
+              margin: 0
+
+
+  .catalog
+    .catalog_item-block
+      margin: 0 auto 30px
+      .links-next
+        p
+          display: none
+
+  .header_fixed
+    .container
+      .room
+        .icon-entrance
+          margin: 0 auto
+      .btn-help
+        display: none
+
+  .header_fixed
+    .container
+      .block_phone
+        width: auto
+        margin: 0 0 0 -30px
+        .icon-arrow
+          right: -30px
+      .auto-search, .vin-search, .room
+        display: none
+
+  .short_description
+    .block_left
+      width: 100%
+      flex-wrap: wrap
+      flex-direction: column
+      justify-content: flex-start
+      align-items: flex-start
+    .wrapper
+      padding: 18px 15px
+      position: relative
+      .links
+        order: -1
+        margin: 0
+        position: absolute
+        right: 15px
+        top: 20px
+    .auto_select-wrap
+      width: 100%
+      margin: 14px 0 0 0
+
+@media screen and (max-width: 580px)
+  footer
+    background: #3f5491
+    .footer_top
+      .container
+        flex-direction: column
+        align-items: flex-start
+        .footer-item
+          width: 100%
+        .footer-address
+          margin: 0
+          .representative
+            display: none
+        .footer-menu
+          li
+            a
+              font-size: 16px
+    .copyright
+      display: none
+    .footer_bottom
+      .container
+        flex-direction: column
+        padding: 42px 15px
+        .footer-item
+          margin: 0 0 40px 0
+          width: 100%
+        .f-money
+          margin: 0
+          text-align: center
+          img
+            margin: 0 auto
+
+  .social
+    justify-content: center
+    li
+      margin: 0 7px
+
+@media screen and (max-width: 510px)
+  .product
+    .brand
+      .line
+        flex-direction: column
+        p
+          padding: 0
+          margin: 25px 0 0 0
+          width: 100%
+
+
+  .sale-page
+    .s-title
+      flex-direction: row
+    .line_sort
+      .select
+        width: 150px
+        min-width: auto
+
+
+  .breadcrumb
+    margin: 15px auto 20px
+
+  .cabinet
+    .sidebar
+      margin: 0 auto
+
+  .list-table
+    li
+      font-size: 10px
+      p:first-child
+        flex: 2
+
+  .box-social p
+    text-align: right
+    margin: 0 0 10px
+
+  .title
+    font-size: 24px
+
+  .contacts .registration_wrapper .form .btn-accent
+    margin: 0 auto
+
+  .s-title
+    flex-direction: column
+    align-items: flex-start
+    padding: 40px 0 0 0
+    .links-all
+      margin: 22px 0 0 0
+    > span
+      margin: 0
+
+  .s_modification-content
+    .box
+      margin: 0 0 60px
+      width: 50%
+      &:last-child, &:nth-child(3)
+        margin: 0
+
+  .s_product-group .cart-wrapper .product_item
+    margin: 0 0 40px 0
+    justify-content: center
+    align-items: center
+    display: flex
+    flex-direction: column
+    a
+      width: 80%
+      text-align: center
+    ul, .box-dots
+      display: none
+
+  .s_sale .cart-wrapper .cart_item
+    width: 283px
+
+
+  .search-vin_wrapper .container .search
+    width: 280px
+
+  .main_slider
+    .slider_item
+      min-height: 250px
+      .slider_text
+        h3
+          margin: 10px 0
+          font-size: 25px
+          line-height: 25px
+        .slider-date
+          font-size: 20px
+        p
+          font-size: 16px
+
+
+  .auto_select
+    .container
+      .auto_select-wrap
+        flex-direction: column
+        align-items: center
+        .item
+          width: 100%
+
+  .auto_item:nth-child(6) ~ .auto_item
+    display: none
+
+
+  .product_catalog
+    .pagination-group
+      display: none
+    .s-title
+      font-size: 24px
+      line-height: normal
+      margin-bottom: 23px
+
+
+  .catalog_item-list
+    justify-content: flex-start
+    .line_group
+      width: 100%
+      margin: 30px auto 0
+      justify-content: space-around
+      &:last-child
+        margin-bottom: 0
+
+  .catalog
+    .sort_wrapper
+      justify-content: center
+      .line_sort
+        .select
+          width: 150px
+          min-width: auto
+  .filter_mnu
+    margin: 0 20px 0 0
+  .tabs__caption
+    margin: 0 0 0 15px
+
+  .short_description
+    margin-top: 20px
+    .wrapper
+      .block_right
+        width: 100%
+        margin: 18px 0 0 0
+        .btn-group
+          width: 100%
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          .links-btn
+            margin-left: 0
+            padding: 4px 7px
+            &:first-child
+              margin: 0
+
+  .ordering
+    .container
+      margin-top: 32px
+      .radio .label
+        font-size: 13px
+      .radio-hidden-form
+        .input-group-wrapper
+          flex-wrap: wrap
+          .input-group
+            width: 100%
+            margin: 0 0 10px 0
+      .ordering_left
+        .stages
+          .line
+            padding: 0
+            justify-content: space-between
+            flex-direction: row
+            .links-btn
+              margin: 0
+          .subtitle
+            flex-wrap: wrap
+            h2
+              font-size: 18px
+            .icon
+              margin-right: 18px
+            .links-hidden
+              margin: 10px 0 0 50px
+          .form
+            width: 100%
+            padding: 0
+            .input-group
+              input
+                width: 100%
+
+  .header_fixed
+		.container
+			.block_phone 
+				display: none
+
+  .main_slider
+    order: -1
+    margin: 0 auto
+    padding: 0
+    border-radius: 0
+    .wrapper-slide
+      border-radius: 0
+      &:before
+        height: 119px
+      .slider_item
+        .slider_text
+          width: calc(100% - 140px)
+          h3
+            font-size: 16px
+            line-height: 20px
+            max-width: 150px
+          .text-sale
+            p
+              font-size: 9px
+        .image
+          padding: 32px 47px 32px 0
+          img
+            max-width: 65px
+          &:before
+            width: 160px
+            height: 160px
+            top: -15px
+          &:after
+            width: 70px
+            height: 70px
+            top: 25px
+            right: 45px
+    .slick-dots
+      bottom: 7px
+
+  .s_popular-auto .list-model
+    flex-direction: column
+    justify-content: flex-start
+    align-items: flex-start
+
+  .menu-mobile
+    li
+      width: auto
+
+  #mobile_menu
+    display: block
+    height: 65px
+    width: 61px
+    border-right: 2px solid #5a6267
+    .mobile_mnu
+      height: 100%
+      width: 100%
+      display: flex
+      align-items: center
+      justify-content: center
+
+  .header_bottom
+    .container
+      padding: 0
+      width: 100%
+      .header_bottom-wrapper
+        border-radius: 0
+
+  .vin
+    width: 64px
+    padding: 0
+    font-size: 17px
+    box-sizing: border-box
+    span
+      display: none
+
+
+  .subtitle
+    font-size: 24px
+
+  .s__cabinet-form
+    flex-wrap: wrap
+
+  .cabinet_wrapper .catalog_content .subtitle
+    flex-wrap: wrap
+
+  .cabinet_garage
+    .short_description
+      .wrapper
+        flex-direction: column
+        .block_left
+          .image
+            max-width: 220px
+        .block_right
+          width: 133px
+          margin: 23px auto 0
+          padding: 0
+
+  .product
+    .product_content-left-image
+      .image_max
+        padding: 10px
+        box-sizing: border-box
+        margin: 0 0 40px 0
+        img:nth-child(1) ~ img
+          display: block
+      .image_min
+        display: none
+
+  //.radio-hidden .select-block select
+  //
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  .box-dots
+    margin: 0 10px 0 auto
+
+  #btn-top
+    right: 15px
+    bottom: 15px
+    width: 34px
+    height: 34px
+
+  .catalog_item-list
+    padding: 15px 0 15px 5px
+    justify-content: space-between
+    box-sizing: border-box
+    .cart_item-group
+      min-width: 150px
+      margin: -30px 0 0 0
+    .item_categories, .product-name
+      width: 51%
+
+  .ordering
+    .container
+      .ordering_wrapper
+        .ordering_left
+          .stages
+            .one_stages-wrap
+              .line
+                flex-direction: column
+                align-items: flex-start
+                .radio
+                  margin: 0
+                  &:last-child
+                    margin: 15px 0 0 0
+        .ordering_right
+          .ordering_product
+            .item
+              .item_title
+                width: 70%
+              .block_line
+                margin: 16px 0 0 0
+
+
+
+  .s_recommended
+    display: none
+
+  .spare_parts .spare_parts-categories .item
+    width: 98%
+    padding: 25px 11px
+
+  .main_slider
+    .slider_item
+      img
+        height: 100%
+      .slider_text
+        h3
+          font-size: 20px
+          line-height: 20px
+        .slider-date
+          font-size: 16px
+          line-height: 18px
+        p
+          font-size: 14px
+          line-height: 16px
+
+  .drop-menu1
+    justify-content: space-between
+    padding: 20px
+    .product_item
+      width: 49%
+      .product-title
+        font-size: 13px
+
+  .product
+    .product_content
+      &-left
+        &-image
+          .image_min
+            display: none
+          .image_max
+            width: 280px
+      .product_content-text
+        width: 100%
+        .block_purchase
+          padding: 27px 9px
+          .btn-accent
+            width: 119px
+          .price
+            margin: 0 10px 0 0
+        .line-buttons
+          justify-content: space-around
+          .links-wrapper
+            margin: 0
+
+
+  .contacts .registration_wrapper
+    margin: 40px 0 0 0
+
+  .error
+    margin: 0 0 60px 0
+    .registration_wrapper
+      .block_phone-callback
+        flex-direction: column
+        justify-content: flex-start
+        align-items: flex-start
+        .btn
+          margin: 20px 0 0 0
+
+  .basket_wrapper
+    .basket__item-delivery
+      width: 50%
+      order: 1
+      margin: 10px auto
+      text-align: center
+
+  .basket
+    .bonus__line, .total__line
+      justify-content: center
+      p
+        margin: 0 10px 0 0
+    .block_phone-callback button
+      width: 132px
+    .input-group-phone
+      width: 141px
+      padding: 0 9px
+
+  .clarification
+    display: flex
+
+
+
+  .cabinet_profile
+    .cabinet_wrapper
+      .subtitle
+        flex-wrap: nowrap
+        .icon
+          min-width: 50px
+          min-height: 50px
+      .catalog_content
+        .form
+          margin: 32px 0 40px 0
+          width: 100%
+          .input-group
+            input
+              width: 100%
+            .radio
+              .label
+                max-width: 80%
+  .form
+    .phone-wrap
+      label
+        margin: 0 5px 0 0
+
+
+
+  .auto_select, .add-auto-select
+    .wrapper
+      .auto_select-top
+        .block_right
+          justify-content: space-between
+          width: 100%
+          .links-btn
+            margin-left: 0
+
+  #modal_authorization
+    width: 100%
+    .form
+      .button-group
+        a
+          width: 120px
+          .image
+            width: 40px
+
+  .checkbox .label
+    padding-left: 10px
+
+  .application
+    .container
+      padding: 40px 15px 0
+      .application_left
+        .application_list
+          li
+            padding: 0
+            .auto
+              min-width: 55px
+            .date
+              margin-left: 10px
+      .application_right
+        .list-accent-dots
+          column-count: 2
+          margin-bottom: 36px
+
+  .s_modification-content
+    flex-direction: column
+    align-items: center
+    width: 100%
+    .box
+      width: 100%
+      margin: 0 0 20px 0
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 420px)
+  .registration .form
+    width: 100%
+    .input-group
+      input
+        width: 100%
+      .checkbox
+        .label
+          max-width: 80%
+
+
+
+@media only screen and (max-width : 437px)
+  .cabinet_wrapper
+    .catalog_content
+      .subtitle
+        .btn
+          margin: 30px 0 0 0
+
+  #modal_result
+    width: 100%
+    margin-left: 0
+    left: 0
+    height: auto
+
+  .cabinet_garage .short_description .block_left .image
+    justify-content: space-around
+
+  .auto_select-wrap .item:first-child .drop-menu, .auto_select-wrap .item:nth-child(2) .drop-menu
+    min-width: auto
+		
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px)
+  .catalog_item-list
+    .cart_item-group
+      min-width: 135px
+    .price
+      width: 100px
+    .block_card
+      margin: 0 8px 0 0
+
+
+  .header_fixed
+    .container
+      .block_card
+        &-top
+          margin: 0
+          padding: 0
+          position: relative
+          .goods
+            position: absolute
+            top: -7px
+            right: -4px
+            width: 18px
+            height: 18px
+            border: 2px solid #ff9d04
+              radius: 50%
+            box-sizing: border-box
+            background: $accent1
+            display: flex
+            align-items: center
+            justify-content: center
+            span
+              line-height: normal
+          .card_text, .amount
+            display: none
+
+
+  .cabinet_wrapper
+    .catalog_content
+      .subtitle
+        .icon
+          margin-right: 14px
+
+
+  .spare_parts .spare_parts-categories .item .image
+    right: -55px
+
+  .product_item
+    .product-title
+      font-size: 12px

@@ -1,0 +1,2547 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+
+    <title>The Autoparts Shop - интернет магазин запасных частей для вашего авто</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:700|Rubik:400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+<div id="mobile-menu">
+    <span class="modal_close"><img src="img/close.png" alt=""></span>
+
+    <ul>
+        <li><a href="#">Запчасти для ТО</a></li>
+        <li><a href="#">Тормозная система</a></li>
+        <li><a href="#">Двигатель и система выпуска</a></li>
+        <li><a href="#">Подвеска и рулевое управление</a></li>
+        <li><a href="#">Трансмиссия</a></li>
+        <li><a href="#">Электрооборудование</a></li>
+        <li><a href="#">Кузов</a></li>
+        <li><a href="#">Масла и автохимия</a></li>
+        <li><a href="#">Каталог запчастей</a></li>
+        <li><a href="#">Страхование</a></li>
+    </ul>
+</div>
+
+<div class="header_fixed">
+    <div class="container">
+        <div class="menu_fix links-btn"><img src="img/burger.png" class="img-responsive" alt=""></div>
+
+
+        <div class="block_phone">
+            <div class="btn-phone">
+                <a href="tel:+380994738877">(099) 473-88-77</a>
+                <span class="icon-arrow fa fa-angle-down" aria-hidden="true"></span>
+            </div>
+
+            <div class="block_phone-dropdown">
+                <ul class="list_phone">
+                    <li><a href="tel:+380934738877">(093) 473-88-77</a></li>
+                    <li><a href="tel:+380604738877">(060) 473-88-77</a></li>
+                </ul>
+
+                <form method="post" class="block_phone-callback">
+                    <div class="input-group-phone">
+                        <span>+38</span>
+                        <input type="tel" name="phone" placeholder="(000) 000-00-00" required>
+                    </div>
+                    <button type="submit" class="links-btn">Перезвоните мне</button>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="block_search">
+            <form method="post" class="search">
+                <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку" required>
+                <button type="submit" class="btn"></button>
+            </form>
+
+            <div class="tooltip-info__wrapper">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="auto-search links-btn">
+            <p>Поиск по авто</p>
+            <div class="tooltip-info__wrapper">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+        <div class="vin-search links-btn"><p>Поиск по VIN</p></div>
+
+        <a href="#modal_authorization" class="room open_modal links-btn">
+                        <span class="icon icon-entrance">
+                            <img src="img/entrance.png" class="img-responsive" alt="">
+                        </span>
+        </a>
+
+        <a href="#" class="block_card links-btn">
+                        <span class="icon icon-basket">
+                            <img src="img/basket.png" class="img-responsive" alt="">
+                        </span>
+            <span class="quantity">0</span>
+        </a>
+
+    </div>
+</div>
+
+<header class="header">
+    <div class="container">
+
+        <div class="header_top">
+            <a href="index.html" class="logo"><img src="img/logo.png" class="img-responsive" alt=""></a>
+
+            <div class="header_top-right">
+                <div class="room">
+                <a href="#modal_authorization" class="open_modal">
+                        <span class="icon icon-entrance">
+                            <img src="img/entrance.png" class="img-responsive" alt="">
+                        </span>
+                    Войти
+                </a></div>
+
+                <div class="block_phone">
+                    <div class="btn-phone">
+                        <a href="tel:+380994738877">(099) 473-88-77</a>
+                        <span class="icon-arrow fa fa-angle-down" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="block_phone-dropdown">
+                        <ul class="list_phone">
+                            <li><a href="tel:+380934738877">(093) 473-88-77</a></li>
+                            <li><a href="tel:+380604738877">(060) 473-88-77</a></li>
+                        </ul>
+
+                        <form method="post" class="block_phone-callback">
+                            <div class="input-group-phone">
+                                <span>+38</span>
+                                <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+                            </div>
+                            <button type="submit" class="links-btn">Перезвоните мне</button>
+                        </form>
+                    </div>
+
+
+                </div>
+
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="sale.html">Акции</a></li>
+                        <li><a href="#">Оплата и Доставка</a></li>
+                        <li><a href="#">Гарантия и Возврат</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header_bottom">
+
+            <nav class="catalog_menu">
+                <div class="menu-title"><span>Каталог товаров</span></div>
+
+            </nav>
+            <div class="drop-menu1">
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon1.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="gantry.html" class="product-title">Запчасти для ТО</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Фильтр топливный</a></li>
+                        <li><a href="catalog.html">Фильтр масляный</a></li>
+                        <li><a href="#">Диск тормозной</a></li>
+                        <li><a href="#">Колодки тормозные</a></li>
+                        <li><a href="#">Свечи зажигания</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon2.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Тормозная система</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Суппорт тормозной</a></li>
+                        <li><a href="#">Диск тормозной</a></li>
+                        <li><a href="#">Колодки тормозные</a></li>
+                        <li><a href="#">Шланги тормозные</a></li>
+                        <li><a href="#">Тормозные цилиндры</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon3.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Двигатель и система выпуска</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Механизм газораспределения</a>
+                        <li><a href="#">Головка блока цилиндра</a>
+                        <li><a href="#">Кривошипно-шатунный механизм</a>
+                        <li><a href="#">Ременной привод</a>
+                        <li><a href="#">Система впуска/выпуска</a>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon4.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Подвеска и рулевое управление</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Рулевое управление</a></li>
+                        <li><a href="#">Амортизаторы (стойки)</a></li>
+                        <li><a href="#">Тормозная система</a></li>
+                        <li><a href="#">Рычаг подвески</a></li>
+                        <li><a href="#">Ступица</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon5.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Трансмиссия</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Система сцепления</a></li>
+                        <li><a href="#">Привод колеса</a></li>
+                        <li><a href="#">Карданный вал</a></li>
+                        <li><a href="#">КПП/АКПП</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon6.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Электрооборудование</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Датчики</a></li>
+                        <li><a href="#">Стартеры</a></li>
+                        <li><a href="#">Генераторы</a></li>
+                        <li><a href="#">Аккумуляторы</a></li>
+                        <li><a href="#">Предохранители</a></li>
+                        <li><a href="#">Предохранители</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon7.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Кузов</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Оптика</a></li>
+                        <li><a href="#">Двери</a></li>
+                        <li><a href="#">Бампер</a></li>
+                        <li><a href="#">Капот</a></li>
+                        <li><a href="#">Зеркала</a></li>
+                        <li><a href="#">Зеркала</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon8.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Масла и автохимия</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Масла моторные</a></li>
+                        <li><a href="#">Масла трансмиссионные</a></li>
+                        <li><a href="#">Жидкости для омывателя стекла</a></li>
+                        <li><a href="#">Жидкости тормозные</a></li>
+                        <li><a href="#">Жидкости охлаждающие</a></li>
+                        <li><a href="#">Жидкости охлаждающие</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon9.png" class="img-responsive" alt="">
+                        <span class="box-pro">pro</span>
+                    </div>
+                    <a href="#" class="product-title">Каталог запчастей</a>
+                    <ul class="product_menu">
+                        <li><a href="#">оригинальные каталоги</a></li>
+                        <li><a href="#">не оригинальные каталоги</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="product_item">
+                    <div class="image">
+                        <img src="img/icon10.png" class="img-responsive" alt="">
+                    </div>
+                    <a href="#" class="product-title">Страхование</a>
+                    <ul class="product_menu">
+                        <li><a href="#">Страхование ОСАГО</a></li>
+                        <li><a href="#">Страхование КАСКО</a></li>
+                        <li><a href="#">Страхование для Европы (Green карта) </a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div class="btn-mobile icon-search">
+                <img src="img/search.png" alt="">
+            </div>
+
+            <div class="block_search">
+                <form method="post" class="search">
+                    <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку"
+                           required>
+                    <button type="submit" class="btn"></button>
+                </form>
+
+                <div class="tooltip-info__wrapper">
+                    <div class="icon-question icon-tooltip">?</div>
+                    <div class="tooltip-info">
+                        <p>Всплывающая подсказка</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="auto-search links-btn">
+                <p>Поиск по авто</p>
+                <div class="tooltip-info__wrapper">
+                    <div class="icon-question icon-tooltip">?</div>
+                    <div class="tooltip-info">
+                        <p>Всплывающая подсказка</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vin-search links-btn"><p>Поиск по VIN</p></div>
+
+            <a href="#modal_authorization" class="room open_modal btn-mobile">
+                        <span class="icon icon-entrance">
+                            <img src="img/entrance.png" class="img-responsive" alt="">
+                        </span>
+            </a>
+
+            <a href="#" class="block_card links-btn">
+                        <span class="icon icon-basket">
+                            <img src="img/basket.png" class="img-responsive" alt="">
+                        </span>
+                <span class="quantity">0</span>
+            </a>
+
+
+        </div>
+    </div>
+</header>
+
+<div id="search-mobile">
+    <div class="container">
+        <form method="post" class="search">
+            <input type="text" name="search" placeholder="Поиск по названию, номеру запчасти, артикулку"
+                   required>
+            <button type="submit" class="btn"></button>
+        </form>
+    </div>
+</div>
+
+<div class="search-vin_wrapper">
+    <div class="container">
+        <div class="block_search">
+            <form method="post" class="search">
+                <input type="text" name="search" placeholder="Введите ваш VIN номер автомобиля"
+                       required>
+                <button type="submit" class="btn"></button>
+            </form>
+
+            <div class="tooltip-info__wrapper">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="auto_select">
+    <div class="container">
+
+        <div class="block_top">
+            <a href="#" class="links">История просмотров</a>
+            <div class="tooltip-info__wrapper btn-mobile">
+                <div class="icon-question icon-tooltip">?</div>
+                <div class="tooltip-info">
+                    <p>Всплывающая подсказка</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="auto_select-wrap">
+
+            <div class="item">
+                <div class="btn-select">Выберите год</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="btn-select">Выберите марку</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите модель</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите двигатель</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите кузов</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+            <div class="item item-hidden">
+                <div class="btn-select">Выберите модификацию</div>
+                <ul class="drop-menu">
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                    <li><a href="#">2018</a></li>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">2015</a></li>
+                    <li><a href="#">2014</a></li>
+                    <li><a href="#">2013</a></li>
+                    <li><a href="#">2012</a></li>
+                    <li><a href="#">2011</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2009</a></li>
+                    <li><a href="#">2008</a></li>
+                    <li><a href="#">2007</a></li>
+                    <li><a href="#">2006</a></li>
+                    <li><a href="#">2005</a></li>
+                    <li><a href="#">2004</a></li>
+                    <li><a href="#">2003</a></li>
+                    <li><a href="#">2002</a></li>
+                    <li><a href="#">2001</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">1999</a></li>
+                    <li><a href="#">1998</a></li>
+                    <li><a href="#">1997</a></li>
+                    <li><a href="#">1996</a></li>
+                    <li><a href="#">1995</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+    <section class="short_description">
+        <div class="container">
+            <div class="wrapper">
+                <div class="block_left">
+
+                    <h4>Ваш автомобиль:</h4>
+                    <div class="auto_select-wrap">
+                        <div class="item">
+                            <div class="btn-select">2009 Ford Kuga</div>
+                            <ul class="drop-menu">
+                                <li><a href="#">2009 Ford Kuga</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span>2.0 Дизель, внедорожник</span>
+                        <span>Код двигателя: UFDA</span>
+                    </div>
+
+                </div>
+
+                <a href="#" class="links">Добавить в гараж</a>
+
+
+                <div class="image">
+                    <img src="img/avto1.png" class="img-responsive" alt="">
+                    <img src="img/avto2.png" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="catalog sale-page">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="sale.html">Акции</a></li>
+            </ul>
+
+            <div class="s-title">
+                <h1>Акционные предложения</h1>
+                <a href="#filter_menu" class="filter_mnu"><img src="img/settings.png" class="img-responsive" alt=""></a>
+
+                <div id="filter_menu">
+                    <div class="filter-title">
+                        <span>Фильтры</span>
+                        <span class="icon-close">x</span>
+                    </div>
+
+                    <div class="filter-reset">
+                        <ul>
+                            <li><a href="#">
+                                200-560 грн <span class="icon icon-close">x</span>
+                            </a></li>
+                            <li><a href="#">
+                                BGS <span class="icon icon-close">x</span>
+                            </a></li>
+                            <li><a href="#">
+                                Alco <span class="icon icon-close">x</span>
+                            </a></li>
+                        </ul>
+                        <a href="#" class="links">Очистить фильтры</a>
+                    </div>
+
+                    <div class="block_price filter-product">
+                        <div class="range_val">
+                            <h4>Цена</h4>
+                            <div class="inp-group">
+                                <input type="text" name="dec" class="dec1">
+                                <span class="line"></span>
+                                <input type="text" name="dec" class="dec2">
+                                <span class="currency">грн</span>
+                                <button type="submit" class="links-btn">ok</button>
+                            </div>
+
+                        </div>
+                        <div class="slider-range"></div>
+                    </div>
+
+                    <div class="filter-product">
+                        <h4>Тип фильтра</h4>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Фильтр тонкой очистки</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                    </div>
+
+                    <div class="filter-product">
+                        <h4>Исполнение фильтра</h4>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Фильтр-вставка</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                    </div>
+
+                    <div class="filter-product">
+                        <h4>Бренд</h4>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Alco</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Ashika</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Automega</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">BSG</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Blue Print</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Bosch</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Champion</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Denckermann</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Febi</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Ford</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Fram</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Hengst Filter</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+                        <label class="checkbox">
+                            <input class="checkbox-inp" type="checkbox" name="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">JC Premium</span>
+                            <span class="quantity">(12)</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="line_sort">
+                    <select class="sort-dropdown select">
+                        <option value="Популярные">По популярности</option>
+                        <option value="Цена">По цене</option>
+                    </select>
+                    <ul class="tabs__caption">
+                        <li class="active">
+                            <div class="icon icon-cube">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon icon-list">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div class="catalog_wrapper">
+
+                <div class="sidebar">
+
+                    <div class="panel_heading-wrapper">
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Запчасти для ТО
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Тормозная система
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Тормозные колодки <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Тормозной диск <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Тормозной барабан <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Ремкомплекты тормозной системы <span
+                                            class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Трос ручника <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Двигатель и система выпуска
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Подвеска и рулевое управление
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Коробка передач
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Электрооборудование
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Кузов
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="panel_heading">
+                            <div class="block_title">
+                                Масла и автохимия
+                            </div>
+                            <div class="block_hover">
+                                <ul class="product_menu">
+                                    <li><a href="#">Фильтр топливный <span class="quantity">(23)</span></a></li>
+                                    <li><a href="catalog.html">Фильтр масляный <span class="quantity">(23)</span></a>
+                                    </li>
+                                    <li><a href="#">Диск тормозной <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Колодки тормозные <span class="quantity">(23)</span></a></li>
+                                    <li><a href="#">Свечи зажигания <span class="quantity">(23)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="filter__wrapper">
+                        <div class="block_price filter-product">
+                            <div class="range_val">
+                                <h4>Цена</h4>
+                                <div class="inp-group">
+                                    <input type="text" name="dec" class="dec1">
+                                    <span class="line"></span>
+                                    <input type="text" name="dec" class="dec2">
+                                    <span class="currency">грн</span>
+                                    <button type="submit" class="links-btn">ok</button>
+                                </div>
+
+                            </div>
+                            <div class="slider-range"></div>
+                        </div>
+
+                        <div class="filter-product">
+                            <h4>Бренд</h4>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Alco</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Ashika</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Automega</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">BSG</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Blue Print</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Bosch</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Champion</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Denckermann</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Febi</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Ford</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Fram</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">Hengst Filter</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+                            <label class="checkbox">
+                                <input class="checkbox-inp" type="checkbox" name="checkbox">
+                                <span class="checkbox-custom"></span>
+                                <span class="label">JC Premium</span>
+                                <span class="quantity">(12)</span>
+                            </label>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="catalog_content">
+                    <div class="tabs__content active">
+                        <div class="tabs__content-wrap">
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/prod2.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/prod2.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/prod2.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/prod2.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                            <div class="catalog_item catalog_item-block">
+                                <span class="sale">-10%</span>
+                                <a href="#" class="image"><img src="img/no-foto.png" class="img-responsive"
+                                                               alt=""></a>
+                                <div class="item_title">
+                                    <a href="#">BSG BSG 070-140-001</a>
+                                    <p>Маслянный фильтр</p>
+                                </div>
+                                <div class="line_group line_delivery">
+                                    <div class="availability-block">
+                                        <div class="availability-block__dots">
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-green"></span>
+                                            <span class="dots-grey"></span>
+                                        </div>
+                                        <div class="tooltip-info">
+                                            <p>На складе > 15 шт</p>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block">
+                                        <div class="delivery-block__date">Сегодня</div>
+                                        <div class="tooltip-info">
+                                            <p>Доставка со склада</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="line_group line_price">
+                                    <div class="price">
+                                        <div class="old-price">420</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+                                    <a href="#" class="btn">Купить</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tabs__content">
+                        <div class="tabs__content-wrap">
+
+                            <div class="tabs__content-box">
+                                <div class="tabs__content-box-title"><h4>Оригинальная запчасть / запрашиваемый код</h4>
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>На складе > 15 шт</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">Сегодня</div>
+                                            <div class="tooltip-info">
+                                                <p>Доставка со склада</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-box">
+                                <div class="tabs__content-box-title">
+                                    <h4>Аналоги</h4>
+                                    <p>Запчасти других производителей, которые подойдут вместо запчасти Fersa 0626
+                                        2RS/C3 </p>
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>На складе > 15 шт</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">Сегодня</div>
+                                            <div class="tooltip-info">
+                                                <p>Доставка со склада</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="old-price">400</div>
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                                </div>
+
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-tooltip icon-no-photo"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>На складе > 15 шт</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">5 дней</div>
+                                            <div class="tooltip-info">
+                                                <p>Доставка со склада</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>На складе > 15 шт</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">Сегодня</div>
+                                            <div class="tooltip-info">
+                                                <p>Доставка со склада</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                                </div>
+
+
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">-</div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span
+                                            class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">-</div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span
+                                            class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">-</div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn basket-check"><span
+                                            class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-green"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>На складе > 15 шт</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">Сегодня</div>
+                                            <div class="tooltip-info">
+                                                <p>Доставка со склада</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">-</div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span
+                                            class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">-</div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span
+                                            class="icon icon-basket"></span></a>
+
+                                </div>
+                                <div class="catalog_item catalog_item-list">
+                                    <div class="product-name">
+                                        <a href="#">Opel</a>
+                                        <p>93179397</p>
+                                    </div>
+
+                                    <div class="item_categories">
+                                        <p>Маслянный фильтр</p>
+                                    </div>
+
+                                    <div class="cart_item-group">
+                                        <div class="tooltip-image__wrapper">
+                                            <div class="icon-photo icon-tooltip"></div>
+
+                                            <div class="tooltip-photo"><img src="img/product-max.png"
+                                                                            class="img-responsive"
+                                                                            alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="tooltip-info__wrapper">
+                                            <div class="icon-question icon-tooltip">i</div>
+                                            <div class="tooltip-info">
+                                                <p>Всплывающая подсказка</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="availability-block">
+                                            <div class="availability-block__dots">
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                                <span class="dots-grey"></span>
+                                            </div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                        <div class="delivery-block">
+                                            <div class="delivery-block__date">-</div>
+                                            <div class="tooltip-info">
+                                                <p>Товар отсутствует</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="price">
+                                        <div class="new-price">330 грн</div>
+                                    </div>
+
+                                    <a href="basket.html" class="block_card btn"><span
+                                            class="icon icon-basket"></span></a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button class="links-btn">Показать еще</button>
+
+                    <ul class="pagination">
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s_modification">
+        <div class="container">
+            <div class="s-title">
+                <h2 class="subtitle">У нас есть маслянные фильтры для следующих моделей</h2>
+            </div>
+
+            <div class="s_modification-content">
+
+                <div class="box">
+                    <ul class="list-model">
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <ul class="list-model">
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <ul class="list-model">
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <ul class="list-model">
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                        <li><a href="#">Фильтры на Chevrolet aveo</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s-about">
+        <div class="container">
+            <div class="s-title">
+                <h2 class="subtitle">Как выбрать запчасти для автомобиля</h2>
+            </div>
+
+            <p>Auto Parts Shop - интернет-магазин автозапчастей для автомобилей европейских производителей, таких
+                как:
+                Mercedes-Benz, Volkswagen, Renault Peugeot, Fiat, Ford, Iveco, Opel, Citroen.,Skoda, Seat, Audi и не
+                только.</p>
+
+            <p>Наша компания имеет опыт работы в сфере оптовой и розничной торговле автозапчастями более 10 лет. У
+                нас
+                Вы всегда сможете купить необходимые комплектующие для Вашего автомобиля:</p>
+
+            <ul>
+                <li>- ассортимент составляет более 300 ТМ автозапчастей со всего мира;
+                    - в наличии на складах Нашей компании более 30 000 позиций автомобильных запчастей.
+                </li>
+                <li>- ассортимент составляет более 300 ТМ автозапчастей со всего мира;
+                    - в наличии на складах Нашей компании более 30 000 позиций автомобильных запчастей.
+                </li>
+            </ul>
+
+            <p>Наши менеджеры с удовольствием помогут подобрать Вам необходимые запчасти!</p>
+
+
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="footer_top">
+        <div class="container">
+
+            <ul class="footer-menu footer-item">
+                <li><a href="#">О компании </a></li>
+                <li><a href="#">Акции </a></li>
+                <li><a href="#">Оплата и Доставка </a></li>
+                <li><a href="#">Гарантия и возврат</a></li>
+                <li><a href="#">Контакты </a></li>
+            </ul>
+
+            <div class="footer-item">
+                <ul class="footer-phone">
+                    <li><a href="tel:+380966080022">(096) 608 00 22</a></li>
+                    <li><a href="tel:+380996080022">(099) 608 00 22</a></li>
+                    <li><a href="tel:+380936080022">(093) 608 00 22</a></li>
+                </ul>
+
+                <ul class="footer-time">
+                    <li>Пн.-Пт · 9:00 - 19:00</li>
+                    <li>Сб · 9:00 - 17:00</li>
+                </ul>
+            </div>
+
+            <div class="footer-address footer-item">
+                <p>Главный офис</p>
+                <span>Украина, Волынская область,
+                        Львов, ул. Третья объездная, 25</span>
+                <a href="#">Показать на карте</a>
+
+                <a href="#" class="representative">Представительства в регионах</a>
+            </div>
+
+            <ul class="footer-item footer-document">
+                <li><a href="#">Поставщикам</a></li>
+                <li><a href="#" target="_blank">Пользовательское соглашение</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        <div class="container">
+
+            <div class="copyright footer-item">2018 Auto Parts Shop</div>
+
+            <ul class="social footer-item">
+                <li><a href="#"><img src="img/fb.png" class="img-responsive" alt=""></a></li>
+                <li><a href="#"><img src="img/inst.png" class="img-responsive" alt=""></a></li>
+                <li><a href="#"><img src="img/g+.png" class="img-responsive" alt=""></a></li>
+            </ul>
+
+            <div class="footer-item f-money">
+                <p>Принимаем к оплате</p>
+                <img src="img/visa.png" class="img-responsive" alt="">
+            </div>
+
+            <div class="footer-item logo-design">
+                <a href="#">
+                    <img src="img/icons_rus.png" alt="">
+                </a>
+
+                <a href="#">
+                    <img src="img/www.stylepix.net.png" alt="">
+                </a>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+</footer>
+
+<div class="modal_div" id="modal_authorization">
+    <div class="modal_div-wrapper">
+        <span class="modal_close"><img src="img/close.png" alt=""></span> <!-- Кнoпкa зaкрыть -->
+
+        <form method="POST" class="form">
+            <div class="form_top">
+                <h3>Авторизация</h3>
+
+                <div class="input-group phone-wrap">
+                    <label>Логин (Моб. телефон):</label>
+                    <div class="input-group-phone">
+                        <span>+38</span>
+                        <input type="text" name="phone" placeholder="(000) 000-00-00" required>
+                    </div>
+                </div>
+
+                <div class="input-group inp-pass">
+                    <label>Ваш пароль <span class="links-search">Забыли пароль?</span></label>
+                    <input type="password" name="pass" required>
+                </div>
+
+                <div class="input-group inp-btn">
+                    <label class="checkbox">
+                        <input class="checkbox-inp" type="checkbox" name="checkbox">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">Запомнить меня</span>
+                    </label>
+                    <button type="submit" class="btn-accent">Войти</button>
+                </div>
+            </div>
+
+            <div class="form_bottom">
+                <a href="registration.html" class="btn">Регистрация</a>
+                <p>Вы можете зарегестрироватсья на c помощью учетных записей социальных сетей</p>
+
+                <div class="button-group">
+                    <a href="#" class="fb">
+                        <span class="image"><img src="img/fb.png" class="img-responsive" alt=""></span>
+                        <span class="text">Facebook</span>
+                    </a>
+                    <a href="#" class="google">
+                        <span class="image"><img src="img/g+.png" class="img-responsive" alt=""></span>
+                        <span class="text">google</span>
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="overlay"></div><!-- Пoдлoжкa -->
+
+<script src="js/scripts.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+
+</body>
+</html>
